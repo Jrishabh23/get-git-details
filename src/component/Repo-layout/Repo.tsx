@@ -1,15 +1,14 @@
-const Repo = (data: any) => {
-    console.log('dadad', data)
-    const {name } = data;
+const Repo = (data:any) => {
+    console.log('data', data)
+    const {name, url } = data;
     return (
         <>
-            <div className="card-container">
-                <div className="card-details">
-                    <div>
-                        <p className="repo-name">{ name}</p>
-                    </div>
-                </div>
-            </div>            
+            <div className="card">
+                <h6> Repo Name</h6>
+                <div className="card-display">
+                    <a href={url}>Git Repo Url</a> 
+                </div> 
+            </div>
         </>
     );
 }

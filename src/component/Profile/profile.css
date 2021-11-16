@@ -1,0 +1,50 @@
+img {
+  border-radius: 50%;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+.form-control {
+    border: none;
+  outline: 0;
+  padding: 8px;
+  cursor: pointer;
+  font-size: 18px;
+}
+button {
+  color: white;
+  background-color: #000;
+  text-align: center;
+}
+.search-box {
+    flex: 1;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+.card-display {
+    margin: 24px 0;
+}
+.contact-form{
+    display: flex;
+    margin: 20px 0;
+}
+.repo-details {
+        text-align: center;
+}
