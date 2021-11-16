@@ -4,9 +4,10 @@ img {
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
-  margin: auto;
+  /* margin: auto; */
   text-align: center;
   font-family: arial;
+  padding: 20px;
 }
 
 .title {
@@ -26,7 +27,7 @@ button {
   text-align: center;
 }
 .search-box {
-    flex: 1;
+    width: 60%;
 }
 
 a {
@@ -38,13 +39,24 @@ a {
 button:hover, a:hover {
   opacity: 0.7;
 }
-.card-display {
-    margin: 24px 0;
-}
 .contact-form{
     display: flex;
-    margin: 20px 0;
+    margin: 50px;
+    justify-content: center;
+    position: sticky;
+    top: 5%;
 }
 .repo-details {
-        text-align: center;
+    text-align: center;
+}
+.user-git-details {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.user-card {
+    position: sticky;
+    top: 15%;
 }
